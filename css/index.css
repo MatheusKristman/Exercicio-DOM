@@ -115,7 +115,7 @@ button{
 }
 
 button:active{
-	margin-top:0px;
+	margin-top: 5px;
 	border: 0;
 }
 
@@ -145,4 +145,23 @@ button[disabled=disabled], button:disabled {
 .mensagem-erro li {
 	font-size: 20px;
 	color: red;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 1s;
+}
+
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.paciente-invisivel {
+	display: none;
+}
+
+.invisivel{
+	display: none;
 }
